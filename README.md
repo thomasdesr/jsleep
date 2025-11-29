@@ -12,7 +12,7 @@ go install github.com/thomasdesr/jsleep@latest
 
 ```bash
 # Sleep ~10s with default ±50% jitter (5s-15s)
-jsleep 10s
+jsleep 10
 
 # Sleep ~10s with ±20% jitter (8s-12s)
 jsleep 10s 20%
