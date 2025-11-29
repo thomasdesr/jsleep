@@ -50,8 +50,8 @@ Options:
   -j, --jitter <percent>   Jitter as percent (e.g., 20%); defaults to 50%.
   -r, --range <duration>   Absolute jitter range (e.g., 2s for +/- 2 seconds).
 
-  -m, --min <duration>     Forces a lower bound on the jitter (seconds by default, supports s/m/h/d).
-  -M, --max <duration>     Forces an upper bound on the jitter (seconds by default, supports s/m/h/d).
+  -m, --min <duration>     Clamp jitter result to this minimum (e.g., jsleep --min 9s 10s).
+  -M, --max <duration>     Clamp jitter result to this maximum.
 
   -v, --verbose            Print the chosen sleep duration to stderr.
   -h, --help               Show this help.
